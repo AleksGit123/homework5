@@ -31,13 +31,69 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    
-
 }
+.nav-link{
+    color: #FFFFFF;
+}
+
 .middle{
     margin-inline:80px ;
 }
 
-.nav-link{
-    color: #FFFFFF;
+
+
+/* section */
+
+.parent-section{
+    background-color: #D4F3F0;
+    margin: auto;
+    width: 1440px;
+    padding:80px 130px;
 }
+.section-image{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 116px;
+}
+.child-section{
+    display: inline-block;
+    width: 460px;
+}
+.section-heading{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #06686E;
+}
+.section-text{
+    font-family: "Kanit", serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 275;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #06686E;
+    margin-block: 32px 60px;
+}
+.section-button{
+    background-color: #2A9D8F;
+    border: none;
+    font-family: "Kanit", serif;
+    font-size: 16px;
+    font-weight: 275;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    padding: 11px 19px;
+}
+
+/* article */
