@@ -1,25 +1,29 @@
 /* header */
-.syte-header{
+.syte-header {
     background-color: #2A9D8F;
     width: 1440px;
     margin: auto;
-    padding:38px 130px;
+    padding: 38px 130px;
 }
-.icon-link{
+
+.icon-link {
     display: inline-block;
     width: 46px;
     height: 46px;
     vertical-align: middle;
     margin-right: 689px;
 }
-.syte-icon{
+
+.syte-icon {
     width: 100%;
     height: 100%;
 }
-.navigator{
-   display: inline-block;
+
+.navigator {
+    display: inline-block;
 }
-.nav-list{
+
+.nav-list {
     display: inline-block;
     font-family: "Nerko one", serif;
     font-optical-sizing: auto;
@@ -32,34 +36,38 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 }
-.nav-link{
+
+.nav-link {
     color: #FFFFFF;
 }
 
-.middle{
-    margin-inline:80px ;
+.middle {
+    margin-inline: 80px;
 }
 
 
 
 /* section */
 
-.parent-section{
+.parent-section {
     background-color: #D4F3F0;
     margin: auto;
     width: 1440px;
-    padding:80px 130px;
+    padding: 80px 130px;
 }
-.section-image{
+
+.section-image {
     display: inline-block;
     vertical-align: top;
     margin-right: 116px;
 }
-.child-section{
+
+.child-section {
     display: inline-block;
     width: 460px;
 }
-.section-heading{
+
+.section-heading {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -69,7 +77,8 @@
     text-decoration-skip-ink: none;
     color: #06686E;
 }
-.section-text{
+
+.section-text {
     font-family: "Kanit", serif;
     font-size: 18px;
     font-style: italic;
@@ -82,7 +91,8 @@
     color: #06686E;
     margin-block: 32px 60px;
 }
-.section-button{
+
+.section-button {
     background-color: #2A9D8F;
     border: none;
     font-family: "Kanit", serif;
@@ -97,3 +107,35 @@
 }
 
 /* article */
+.index-article {
+    width: 1180px;
+    margin: 80px auto;
+    /* background-color: red; */
+}
+
+.article-heading {
+    font-family: "Kanit", serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #06686E;
+
+}
+
+.article-text {
+    font-family: "Kanit", serif;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.005em;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #06686E;
+    text-align: justify;
+    margin-top: 32px;
+}
