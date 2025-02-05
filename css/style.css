@@ -25,6 +25,9 @@
 
 .nav-list {
     display: inline-block;
+}
+
+.nav-link {
     font-family: "Nerko one", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -35,9 +38,6 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-}
-
-.nav-link {
     color: #FFFFFF;
 }
 
@@ -57,7 +57,6 @@
 }
 
 .section-image {
-    display: inline-block;
     vertical-align: top;
     margin-right: 116px;
 }
@@ -68,6 +67,7 @@
 }
 
 .section-heading {
+    font-family: "Kanit", serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
@@ -99,11 +99,12 @@
     font-size: 16px;
     font-weight: 275;
     line-height: 24px;
-    text-align: left;
+    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
-    padding: 11px 19px;
+    width: 112px;
+    height: 46px;
 }
 
 /* article */
